@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./webhome.css">
+    <style>
+        /* untuk ukuran layar 480px kebawah */
+@media screen and (max-width: 480px)
+{
+    .nav{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .nav ul li{
+        margin-right: 30px;
+        padding: 30px;
+        font-size: 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><h1><b>SM</b>Food</h1></div>
+        <ul>
+            <li><a  href="./webhome.html">Home</a></li>
+            <li><a href="./Tentang.html">Tentang</a></li>
+            <li><a href="./produk.html">Produk</a></li>
+            <li><a href="./kontak.html">Kontak</a></li>
+            <li><a class="active" href="./lokasitoko.html">Lokasi_toko</a></li>
+        </ul>
+        <div>
+            <input class="signin" type="submit" value="Sign In" name="SignIn">
+            <input class="signup" type="submit" value="Sign Up" name="signUp">
+
+        </div>
+    </div>
+    <div class="map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.168224865297!2d108.55579178408972!3d-6.749327748566926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1da2f3a30e67%3A0x6c8e499a7f7347d4!2sJl.%20Ciremai%20Raya%20No.150%2C%20Larangan%2C%20Kec.%20Harjamukti%2C%20Kota%20Cirebon%2C%20Jawa%20Barat%2045141!5e0!3m2!1sid!2sid!4v1725506812591!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+</body>
+</html>

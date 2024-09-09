@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Kami</title>
+    <link rel="stylesheet" href="./webhome.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .store-info, .products {
+            margin-bottom: 20px;
+        }
+        .store-info h2, .products h2 {
+            color: #007bff;
+        }
+        .store-info p, .products p {
+            color: #555;
+        }
+        .products .product {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fafafa;
+        }
+        .products .product img {
+            width: 300px;
+            height: 200px;
+            border-radius: 4px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        /* untuk ukuran layar 480px kebawah */
+@media screen and (max-width: 480px)
+{
+    .nav{
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .nav ul li{
+        margin-right: 30px;
+        padding: 30px;
+        font-size: 20px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo"><h1><b>SM</b>Food</h1></div>
+        <ul>
+            <li><a  href="./webhome.html">Home</a></li>
+            <li><a href="./Tentang.html">Tentang</a></li>
+            <li><a class="active" href="./produk.html">Produk</a></li>
+            <li><a href="./kontak.html">Kontak</a></li>
+            <li><a href="./lokasitoko.html">Lokasi_toko</a></li>
+        </ul>
+        <div>
+            <input class="signin" type="submit" value="Sign In" name="SignIn">
+            <input class="signup" type="submit" value="Sign Up" name="signUp">
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>Produk Kami</h1>
+        
+       
+        <div class="products">
+            <h2>Produk Unggulan</h2>
+            
+            <div class="product">
+                <img src="./gambar/produk mangga.webp" alt="Produk 1">
+                <h3>Produk 1</h3>
+                <p>Deskripsi singkat tentang Produk 1. Produk ini sangat berkualitas dan menawarkan banyak manfaat.</p>
+            </div>
+            
+            <div class="product">
+                <img src="./gambar/produk naga.webp" alt="Produk 2">
+                <h3>Produk 2</h3>
+                <p>Deskripsi singkat tentang Produk 2. Dapatkan produk ini dengan harga terbaik di toko kami.</p>
+            </div>
+
+            <div class="product">
+                <img src="./gambar/produk alpukat.webp" alt="Produk 3">
+                <h3>Produk 3</h3>
+                <p>Deskripsi singkat tentang Produk 3. Produk ini cocok untuk kebutuhan sehari-hari Anda.</p>
+            </div>
+
+            <div class="product">
+                <img src="./gambar/produk strawbery.jpg" alt="Produk 3">
+                <h3>Produk 4</h3>
+                <p>Deskripsi singkat tentang Produk 3. Produk ini cocok untuk kebutuhan sehari-hari Anda.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p>Untuk informasi lebih lanjut, silakan <a href="mailto:info@tokokami.com">hubungi kami melalui email</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
